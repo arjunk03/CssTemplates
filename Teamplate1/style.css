@@ -16,11 +16,13 @@ p {
 h1 {
     border: 2px dashed red;
     width: 50%;
+    font-size: 3rem;
+    padding: 1em;  /* Now this em compares it with the font-size of this element itself. */
 }
 
-main {
+/* main {
     font-size: 2rem;
-}
+} */
 
 p {
     font-size: 2rem;
